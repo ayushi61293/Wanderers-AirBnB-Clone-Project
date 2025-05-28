@@ -18,8 +18,8 @@ router.route("/")
 
 
 
-//New route
-router.get("/new", isLoggedIn, listingController.renderNewForm)
+//New route changing the name to create route
+router.get("/create", isLoggedIn, listingController.renderNewForm)
 
 
 // GET /search?query=searchTerm
